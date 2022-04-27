@@ -1,0 +1,41 @@
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header .container{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	display: inline-flex;
+	align-items:center;
+}
+.logo p {
+	margin-left:20px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.phone{
+	display: inline-flex;
+}
+.phone img {
+	margin-right: 10px;
+}
+
+@media screen and (max-width:400px) {
+    .logo{
+    	justify-content: center;
+    	margin: 0 auto;
+    }
+    .logo p{
+    	font-size: 25px;
+    }
+    .phone {
+        display: none;
+    }
+}
